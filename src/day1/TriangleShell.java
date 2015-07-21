@@ -2,6 +2,8 @@ package day1;
 
 public class TriangleShell {
 
+	// TODO: convert to Robot
+	
 	public static void main(String[] args) {
 		drawTriangle(20); // 2. delete this line (used only for testing)
 

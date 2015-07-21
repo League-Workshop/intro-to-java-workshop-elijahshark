@@ -2,6 +2,7 @@ package day1;
 
 import javax.swing.JOptionPane;
 
+//TODO: convert to Robot
 
 public class FourSquare {
 	

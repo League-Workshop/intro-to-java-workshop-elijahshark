@@ -6,7 +6,9 @@ package day1;
 * 2. ask students how they might use the method to make the picture in the laminated hand-outs. */
 
 public class StarShow {
-
+	
+	// TODO: convert to Robot
+	
 	public static void main(String[] args) {
 		drawStar(100);	//4. delete this line. just show the Tortoise instead.
 

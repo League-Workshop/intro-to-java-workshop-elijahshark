@@ -4,6 +4,8 @@ package day1;
 
 public class PentagonCrazy {
 
+	// TODO: convert to Robot
+	
 	private void makePrettyThings() {
 		
 		// 6. make the tortoise go at maximum speed
