@@ -1,8 +1,6 @@
-package day1;
+package day1.tortoise;
 
 import javax.swing.JOptionPane;
-
-//TODO: convert to Robot
 
 public class FourSquare {
 	
@@ -28,7 +26,3 @@ public class FourSquare {
 		
 	}
 }
-
-
-
-

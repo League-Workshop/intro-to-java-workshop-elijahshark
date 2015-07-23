@@ -1,7 +1,5 @@
-package day1;
+package day1.tortoise;
 public class Spiral {
-
-	// TODO: convert to Robot
 
 	public static void main(String[] args) {
 		// 1. Show the tortoise

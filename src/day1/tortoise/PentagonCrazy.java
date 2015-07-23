@@ -1,11 +1,9 @@
-package day1;
+package day1.tortoise;
 
 /* Teacher’s note: before beginning, draw a pentagon and have students work out the angle that the tortoise will have to turn (360/5) */
 
 public class PentagonCrazy {
 
-	// TODO: convert to Robot
-	
 	private void makePrettyThings() {
 		
 		// 6. make the tortoise go at maximum speed

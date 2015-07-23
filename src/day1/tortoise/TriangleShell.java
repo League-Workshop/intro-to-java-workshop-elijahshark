@@ -1,9 +1,7 @@
-package day1;
+package day1.tortoise;
 
 public class TriangleShell {
 
-	// TODO: convert to Robot
-	
 	public static void main(String[] args) {
 		drawTriangle(20); // 2. delete this line (used only for testing)
 
