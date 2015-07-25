@@ -9,7 +9,8 @@ public class PentagonCrazySolution {
 	private void makePrettyThings() {
 		// 1. create a new Robot
 		Robot robot = new Robot();
-
+		// 3. Put the robot's pen down
+		robot.penDown();
 		// 8. make the robot go at maximum speed
 		robot.setSpeed(10);
 		// 9. choose a color that you like for the shape
@@ -20,9 +21,7 @@ public class PentagonCrazySolution {
 		int angle = 360 / sides;
 		// 7. Do everything below 200 times. When this is done you will see a pentagon.
 		for (int i = 0; i < 200; i++) {
-			// 2. Put robot's pen down
-			robot.penDown();
-			// 3. Move the robot 200 pixels
+			// 2. Move the robot 200 pixels
 			// robot.move(200);
 			// 9. make the robot move "i" pixels instead of 200 (don’t need new line of code for this, just change previous one)
 			robot.move(i);
