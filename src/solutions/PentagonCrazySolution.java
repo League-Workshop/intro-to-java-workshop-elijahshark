@@ -1,7 +1,5 @@
 package solutions;
 
-import javafx.scene.paint.Color;
-
 import org.jointheleague.graphical.robot.Robot;
 /* Teacher’s note: before beginning, draw a pentagon and have students work out the angle that the robot will have to turn (360/5) */
 

@@ -1,5 +1,6 @@
 package solutions;
-import java.util.Random;
+
+import org.jointheleague.graphical.robot.Robot;
 
 /*** Teacher's note ***/
 /* Before beginning recipe: 
@@ -8,52 +9,58 @@ import java.util.Random;
 
 public class StarShowSolution {
 	
-	public static void main(String[] args) {
-		// 1. Create a new Robot and set its pen to down
-		Robot rob = new Robot();
-		rob.penDown();
+	Robot robot = new Robot();
+	
+	void showStars() {
+		robot.penDown();
+		robot.changeRobot("small-bot.robi");
 		
-		//5. Call the drawStar method using your Robot and 100 for the starSize
-		//drawStar(rob, 100);	//6. delete this line.
-
-		// 7. Set the speed to 8
-		rob.setSpeed(8);
-		// 8. Make a variable to hold the X position of the Tortoise and set it to 10
+		//drawStar(100);	//4. delete this line. you will draw the star again in step 8.
+		
+		// 13. Set the speed to 8
+		
+		// 5. Make a variable to hold the X position of the Tortoise and set it to 10
 		int xPos = 10;
-		// 9. Make a variable to hold the Y position of the Tortoise and set it to 440
-		int yPos = 880;
-		// 10. Make a variable to hold the star size and set it to 15
+		// 6. Make a variable to hold the Y position of the Tortoise and set it to 660
+		int yPos = 660;
+		// 7. Make a variable to hold the star size and set it to 15
 		int starSize = 15;
 		// 11. Repeat the steps below, 30 times
-		for(int i = 0; i < 30; i++)
-		{
-			// 12. Move the robot to a new position using your X and Y variables
-			rob.moveTo(xPos, yPos);
+		
+			// 9. Set the X position of the robot to your X variable
 			
-			// 13. Call the drawStar() method with your star size variable
-			drawStar(rob, starSize);
-			// 14. Increase the X position by star size. See Figure 2.
-			xPos += starSize;
-			// 15. decrease the Y position by star size. See Figure 3.
-			yPos -= starSize;
-			// 16. Increase the star size by 8
-			starSize += 8;
-			// 17. Turn the Robot 10 degrees
-			rob.turn(10);
-			// 18. Make each star a different random color like in Figure 4.
-			rob.setPenColor(new Random().nextInt(255), new Random().nextInt(255), new Random().nextInt(255));
-		}	
+			// 10. Set the Y position of the robot to your Y variable
+			
+			// 8. Call the drawStar() method with your star size variable
+			drawStar(starSize);
+			// 12. Increase the X position by star size. See Figure 2.
+			
+			// 14. decrease the Y position by star size. See Figure 3.
+			
+			// 15. Increase the star size by 8
+			
+			// 16. Turn the Tortoise 10 degrees
+			
+			// 17. Make each star a different random color like in Figure 4. Hint: Use the Colors object.
+
 		
 	}
 
-	private static void drawStar(Robot r, int starSize) {
-		// 4. Repeat both commands 5 times. See Figure 1 at http://bit.ly/star-show
-		for(int i = 0; i < 5; i++)
-		{
-			// 2. Move the Robot the distance of the starSize variable
-			r.move(starSize);
-			// 3. Turn the Robot 144 degrees
-			r.turn(144);
-		}	
+	private void drawStar(int starSize) {
+		// 3. Repeat both commands 5 times. See Figure 1 at http://bit.ly/star-show
+		for (int i = 0; i < 5; i++) {
+			// 1. Move the robot the distance of the starSize variable
+			robot.move(starSize);
+			// 2. Turn the robot 144 degrees
+			robot.turn(144);
+		}
+			
+	}
+	
+	public static void main(String[] args) {
+		new StarShowSolution().showStars();
 	}
 }
+
+
+

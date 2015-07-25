@@ -5,11 +5,11 @@ public class Spiral {
 	public static void main(String[] args) {
 		// 1. Create a new Robot and set its pen to the down position
 
-		// 3. Set the robot to go as fast as possible
+		// 3. Set the robot to go at max speed (10)
 
 		// 4. Do the following (steps 5-8) 75 times
 
-		// 6. Change the color of the line to a random color (Colors.getRandomColor())
+		// 6. Change the pen color to random
 
 		// 5. Move the robot 5 times the current line number you are drawing (5*i)
 
