@@ -13,7 +13,7 @@ public class StarShow {
 	
 	void makeStars() {
 		
-		drawStar(100);	//5. delete this line. you will draw the star again in step 8.
+		drawStar(150);	//5. delete this line. you will draw the star again in step 8.
 		// 13. Set the speed to 8
 
 		// 6. Make a variable to hold the X position of the Robot and set it to 10
