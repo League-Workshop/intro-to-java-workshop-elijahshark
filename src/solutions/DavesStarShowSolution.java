@@ -10,10 +10,10 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class DavesStarShowSolution {
 	
-	// 1. Create a new Robot and set its pen to down
-	Robot robot = new Robot();
 			
 	public static void main(String[] args) {
+		// 1. Create a new Robot and set its pen to down
+		Robot robot = new Robot();
 		// 2. Put the robot's pen down
 		robot.penDown();
 		
