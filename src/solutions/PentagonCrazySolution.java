@@ -31,7 +31,7 @@ public class PentagonCrazySolution {
 			// 6. turn the robot the amount in your angle variable
 			robot.turn(angle);
 			// 10. turn the robot one more degree
-			angle++;
+			robot.turn(1);
 		}
 
 	}
