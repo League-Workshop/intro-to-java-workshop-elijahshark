@@ -16,9 +16,9 @@ public class StarShow {
 
 		// 7. Set the speed to 8
 	
-		// 8. Make a variable to hold the X position of the Tortoise and set it to 10
+		// 8. Make a variable to hold the X position of the robot and set it to 10
 
-		// 9. Make a variable to hold the Y position of the Tortoise and set it to 440
+		// 9. Make a variable to hold the Y position of the robot and set it to 440
 
 		// 10. Make a variable to hold the star size and set it to 15
 

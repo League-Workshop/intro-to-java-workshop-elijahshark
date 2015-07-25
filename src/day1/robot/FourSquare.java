@@ -14,7 +14,7 @@ public class FourSquare {
 
 		// 5. Do steps #6 to #7 four times...
 
-			// 6. Change the color of the line the robot draws to a random color
+			// 6. Set the pen color to random
 	
 			// 1. Call the drawSquare() method
 	

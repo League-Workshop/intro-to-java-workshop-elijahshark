@@ -20,7 +20,7 @@ public class TriangleShell {
 
 			// 5. call your drawTriangle() method using your Robot and your length variable
 
-			// 10. Turn the tortoise 6 degrees to the right
+			// 10. Turn the robot 6 degrees to the right
 		
 	}
 
