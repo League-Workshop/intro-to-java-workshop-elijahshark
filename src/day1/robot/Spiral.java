@@ -11,7 +11,7 @@ public class Spiral {
 
 		// 3. Set the robot to go at max speed (10)
 
-		// 4. Do the following (steps 5-8) 75 times
+		// 4. Do the following (steps 7-9) 75 times
 
 			// 7. Change the pen color to random
 	
