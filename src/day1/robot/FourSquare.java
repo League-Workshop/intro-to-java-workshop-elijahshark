@@ -13,7 +13,7 @@ public class FourSquare {
 
 		// 5. Set the pen width to 5
 
-		// 6. Do steps #6 to #8 four times...
+		// 6. Do steps #7 to #8 four times...
 
 			// 7. Set the pen color to random
 	
