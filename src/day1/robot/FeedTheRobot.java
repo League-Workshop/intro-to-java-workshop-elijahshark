@@ -16,17 +16,21 @@ public class FeedTheRobot implements KeyEventDispatcher
 	private void feedTheRobot()
 	{
 		// 1. use the addFood() method to add food for the robot
+		
 	}
 
 private void goUp()
 	{
-		// 2. Print “going up”. Test it out by running your code and pressing the up key
+		// 2. Print "going up". Test it out by running your code and pressing the up key
+	
 		// 3. Make the robot move up the screen
+	
 	}
 
 	private void goDown()
 	{
 		// 4. make the robot move down the screen
+		
 	}
 	
 	private void goLeft()
@@ -37,6 +41,7 @@ private void goUp()
 	private void goRight()
 	{
 		// 6. make the robot move right
+		
 	}
 
 	private void checkIfFoodFound() throws Exception
@@ -48,7 +53,7 @@ private void goUp()
 		
 		// 8. if robot is at same location as food
 			// print "chomp"
-			// say “chomp” with Runtime.getRuntime().exec("say chomp");
+			// say "chomp" with Runtime.getRuntime().exec("say chomp");
 			// call the eatFood() method
 		
 	}
