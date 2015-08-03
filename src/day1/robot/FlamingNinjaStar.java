@@ -1,3 +1,4 @@
+package day1.robot;
 import org.jointheleague.graphical.robot.Robot;
 
 /*** Teacher's note ***/

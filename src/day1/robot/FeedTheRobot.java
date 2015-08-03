@@ -1,3 +1,4 @@
+package day1.robot;
 import java.awt.KeyEventDispatcher;
 import java.awt.KeyboardFocusManager;
 import java.awt.Label;
