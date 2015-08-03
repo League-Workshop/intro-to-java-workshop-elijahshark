@@ -13,7 +13,7 @@ public class StarShowSolution {
 	
 	void showStars() {
 		
-		//drawStar(100);	//5. delete this line. you will draw the star again in step 8.
+		drawStar(150);	//5. delete this line. you will draw the star again in step 8.
 		// 13. Set the speed to 8
 		robot.setSpeed(18);
 		// 6. Make a variable to hold the X position of the Tortoise and set it to 10
