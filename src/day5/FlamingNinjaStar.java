@@ -1,4 +1,4 @@
-package day1.robot;
+package day5;
 import org.jointheleague.graphical.robot.Robot;
 
 /*** Teacher's note ***/
@@ -16,7 +16,7 @@ public class FlamingNinjaStar {
 		
 		// *15. Make some adjustments to see what other kinds of shapes you can make.
 
-		// 1. Show the robot
+		// 1. Make a new robot, and set it's pen down.
 
 		// 12. Set the robot speed to 10
 
