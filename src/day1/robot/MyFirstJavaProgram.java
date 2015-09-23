@@ -8,7 +8,7 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 
-		new Robot();
+	
 		
 		
 	}
