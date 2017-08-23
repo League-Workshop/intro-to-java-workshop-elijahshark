@@ -6,7 +6,7 @@ public class Spiral {
 
 	public static void main(String[] args) {
 		// 1. Create a new Robot
-		
+		Dot.Robot = new Robot
 		// 5. Set your robot's pen to the down position
 
 		// 3. Set the robot to go at max speed (10)
